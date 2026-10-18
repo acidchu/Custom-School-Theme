@@ -1,8 +1,8 @@
-# Bevan Theme
+# Custom School Theme
 
 A WordPress child theme by Bevan Matsacos.
 
-> **Disclosure:** Bevan Theme is a **child theme of [Education Center](https://wordpress.org/themes/education-center/)** by [Good Looking Themes](https://glthemes.com/). It is built from their **[School Center](https://wordpress.org/themes/school-center/) 1.0.2** child theme, with my own changes added on top. Education Center must be installed for this theme to work. All original code remains the work of Good Looking Themes and is used under the GNU GPL v3 (see [Credits](#credits)). This project is not affiliated with or endorsed by Good Looking Themes.
+> **Disclosure:** Custom School Theme is a **child theme of [Education Center](https://wordpress.org/themes/education-center/)** by [Good Looking Themes](https://glthemes.com/). It is built from their **[School Center](https://wordpress.org/themes/school-center/) 1.0.2** child theme, with my own changes added on top. Education Center must be installed for this theme to work. All original code remains the work of Good Looking Themes and is used under the GNU GPL v3 (see [Credits](#credits)). This project is not affiliated with or endorsed by Good Looking Themes.
 
 ## What's different from School Center
 
@@ -17,8 +17,8 @@ A WordPress child theme by Bevan Matsacos.
 ## Install
 
 1. Install and update the **Education Center** theme (Appearance → Themes → Add New).
-2. Zip the `bevan-theme` folder, or download this repo as a zip and rename the folder inside to `bevan-theme`.
-3. Go to Appearance → Themes → Add New → Upload Theme, choose the zip, then activate **Bevan Theme**.
+2. Zip the `custom-school-theme` folder, or download this repo as a zip and rename the folder inside to `custom-school-theme`.
+3. Go to Appearance → Themes → Add New → Upload Theme, choose the zip, then activate **Custom School Theme**.
 
 Requires WordPress 6.0+ and PHP 8.0+.
 

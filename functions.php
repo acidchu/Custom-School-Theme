@@ -24,14 +24,15 @@ require get_stylesheet_directory() . '/includes/social-icons.php';
 
 /**
  * On first activation, copy the Customizer settings (logo, colours, homepage
- * sections, menus, Additional CSS) from the original School Center theme, since
+ * sections, menus, Additional CSS) from Bevan Theme (this theme's old name) or
+ * the original School Center theme, since
  * WordPress stores them per theme folder.
  */
-function bevan_theme_import_theme_mods() {
-    if ( get_option( 'bevan_theme_mods_imported' ) ) {
+function custom_school_theme_import_theme_mods() {
+    if ( get_option( 'custom_school_theme_mods_imported' ) ) {
         return;
     }
-    foreach ( array( 'school-center', 'education-center' ) as $old_theme ) {
+    foreach ( array( 'bevan-theme', 'school-center', 'education-center' ) as $old_theme ) {
         $old_mods = get_option( 'theme_mods_' . $old_theme );
         if ( is_array( $old_mods ) && $old_mods ) {
             $new_mods = get_option( 'theme_mods_' . get_stylesheet(), array() );
@@ -40,6 +41,6 @@ function bevan_theme_import_theme_mods() {
             break;
         }
     }
-    update_option( 'bevan_theme_mods_imported', 1 );
+    update_option( 'custom_school_theme_mods_imported', 1 );
 }
-add_action( 'after_switch_theme', 'bevan_theme_import_theme_mods' );
+add_action( 'after_switch_theme', 'custom_school_theme_import_theme_mods' );
